@@ -29,6 +29,8 @@ class TestMathLib(unittest.TestCase):
         self.assertEqual(math_lib.div(-1, -1), 1)
         self.assertEqual(math_lib.div(5, 2), 2.5)
 
+    def test_double(self):
+        self.assertEqual(math_lib.double(10), 20)
 
         for i in range(1000):
             a = random.randint(1,10000)

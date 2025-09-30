@@ -12,5 +12,5 @@ def prod(a, b):
 def div(a, b):
     return a / b
 
-def double(a)
+def double(a):
     return add(a, a)
